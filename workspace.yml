@@ -1,0 +1,12 @@
+opencollection: 1.0.0
+info:
+  name: "Github public"
+  type: workspace
+
+collections:
+  - name: "test"
+    path: "collections/test"
+
+specs:
+
+docs: ''
