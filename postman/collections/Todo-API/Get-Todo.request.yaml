@@ -1,0 +1,9 @@
+$kind: http-request
+name: 'Get Todo'
+method: GET
+url: '{{base_url}}/todos/:id'
+order: 3000
+pathVariables:
+  - key: id
+    value: ''
+    description: The UUID of the todo item
