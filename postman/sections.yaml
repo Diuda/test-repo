@@ -1,0 +1,9 @@
+panels:
+  - name: uncategorized
+    panelType: 1
+    isUncategorized: true
+    items:
+      - relativePath: postman/environments/Todo-Local.environment.yaml
+        elementType: environment
+      - relativePath: postman/collections/Todo-API
+        elementType: collection
