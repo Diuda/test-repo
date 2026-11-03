@@ -2,5 +2,4 @@ $kind: collection
 name: Todo API
 description: CRUD operations for a simple in-memory Todo list built with Hono/Node.js.
 variables:
-  - key: base_url
-    value: 'http://localhost:3000'
+  base_url: http://localhost:3000
