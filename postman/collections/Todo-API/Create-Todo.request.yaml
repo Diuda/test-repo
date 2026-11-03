@@ -1,0 +1,15 @@
+$kind: http-request
+name: 'Create Todo'
+method: POST
+url: '{{base_url}}/todos'
+order: 2000
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "title": "Buy groceries",
+      "done": false
+    }

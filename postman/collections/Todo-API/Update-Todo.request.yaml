@@ -1,0 +1,19 @@
+$kind: http-request
+name: 'Update Todo'
+method: PATCH
+url: '{{base_url}}/todos/:id'
+order: 4000
+pathVariables:
+  - key: id
+    value: ''
+    description: The UUID of the todo item
+headers:
+  - key: Content-Type
+    value: application/json
+body:
+  type: json
+  content: |-
+    {
+      "title": "Buy groceries (updated)",
+      "done": true
+    }
