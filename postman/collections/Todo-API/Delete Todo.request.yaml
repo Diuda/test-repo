@@ -1,9 +1,8 @@
 $kind: http-request
-name: 'Delete Todo'
+url: "{{base_url}}/todos/:id"
 method: DELETE
-url: '{{base_url}}/todos/:id'
-order: 5000
 pathVariables:
   - key: id
-    value: ''
+    value: ""
     description: The UUID of the todo item
+order: 5000
